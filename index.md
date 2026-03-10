@@ -40,4 +40,4 @@ Not every student has continuous access to a traditional laptop or PC, yet moder
 We may periodically update this Privacy Policy to reflect app updates or regulatory requirements. Any changes will be reflected in this document alongside an updated "Effective Date." Given our commitment to an offline-first architecture, our core stance on local data processing will not change.
 
 ## 8. Contact Information
-If you have any academic inquiries, feedback, or concerns regarding this Privacy Policy and how your data remains local on your device, please reach out directly to the development team.
+If you have any academic inquiries, feedback, or concerns regarding this Privacy Policy and how your data remains local on your device, please reach out directly to the development team at: **vaibhavkrishnasrivastava@gmail.com**.
