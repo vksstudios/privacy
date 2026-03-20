@@ -2,7 +2,7 @@
 
 **Effective Date: March 20, 2026**
 
-Pingora ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website monitoring application and mobile app.
+Pingora is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website monitoring application and mobile app.
 
 ---
 
@@ -49,7 +49,6 @@ Once purged, those logs are permanently deleted from our terminal and cannot be 
 
 *   **Encryption at Rest**: All sensitive data is stored in a secure PostgreSQL environment.
 *   **Encryption in Transit**: All communication between the web/mobile app and our API is performed over SSL/TLS.
-*   **Biometric Security**: On mobile devices, we support FaceID/Fingerprint authentication for app entry. Note: Pingora **does not** store your biometric data; this is handled locally by your device's hardware.
 
 ---
 
