@@ -1,71 +1,32 @@
 # Privacy Policy for Pingora
 
-**Effective Date: March 20, 2026**
+**Effective Date:** March 27, 2026
 
-Pingora is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website monitoring application and mobile app.
-
----
+At Pingora, operated by VKS Studios, your privacy is a priority. This Privacy Policy describes how we collect, use, and handle your information when you use our monitoring services.
 
 ## 1. Information We Collect
 
-We only collect data that is essential for providing our heartbeat monitoring and alerting services.
+*   **Account Information:** When you sign up, we collect your email address, name (callsign), and account credentials.
+*   **Google Auth:** If you use "Continue with Google," we receive your Google ID, email, and profile name.
+*   **Monitoring Data:** We collect the URLs of the websites you monitor, site response times, and status history.
+*   **Push Notifications:** If you enable push notifications, we store a secure token to send alerts to your device.
 
-### A. Account Information
-*   **Email Address**: Used for account identification, secure login, and sending downtime alerts.
-*   **Passwords**: We store only cryptographically hashed versions of your passwords using industry-standard (Bcrypt) encryption. We never see or store your raw password.
+## 2. How We Use Information
 
-### B. Monitoring Data
-*   **Website URLs**: To monitor your fleet, we store the target URLs you provide.
-*   **Response Metrics**: We record HTTP status codes, response times (latency), and error messages to generate your health reports.
-*   **SSL Status**: Metadata about your SSL certificates (expiry dates) to provide renewal alerts.
+*   **Service Delivery:** To monitor your websites and send you alerts (email/push) when they go down.
+*   **Account Management:** To maintain your subscription, settings, and secure access.
+*   **Security:** To protect our systems from unauthorized access or abuse.
 
-### C. Technical Identifiers
-*   **FCM Tokens**: For users on Android or iOS, we store specialized tokens (Firebase Cloud Messaging) to deliver instant push notifications to your device.
-*   **JWT Tokens**: We use secure session tokens to keep you logged into your "Cockpit" without storing credentials in your browser.
+## 3. Data Retention and Deletion
 
----
+*   **Your Control:** You can add, edit, or delete any monitor at any time.
+*   **Account Deletion:** You can choose to permanently delete your account directly through the Dashboard. This will wipe all your personal information, monitors, and history logs from our active databases.
+*   **Logs:** We periodically purge old monitor history to keep the service fast and efficient.
 
-## 2. How We Use Your Data
+## 4. Data Sharing
 
-*   **Service Delivery**: To ping your websites at your requested intervals (60s, 300s, 600s).
-*   **Real-time Alerting**: To notify you via Email or Push Notification the moment a "Frequency Loss" (downtime) is detected.
-*   **Audit Reporting**: To generate the "Fleet Audit" reports you request.
-*   **System Optimization**: We use log data to improve the speed and accuracy of our monitoring worker.
+We do not sell your personal data. We only share data with third-party providers necessary for service delivery (e.g., email delivery via SendGrid/Mailgun or push notifications via Google Firebase).
 
----
+## 5. Contact Us
 
-## 3. Data Retention & The "Purge" Principle
-
-We believe you should own your data. Our unique **"Audit & Purge"** feature allows you to:
-1.  Generate a full snapshot of your monitor history.
-2.  Receive that record via a secure email.
-3.  Immediately wipe that history from our primary database.
-
-Once purged, those logs are permanently deleted from our terminal and cannot be recovered.
-
----
-
-## 4. Security Measures
-
-*   **Encryption at Rest**: All sensitive data is stored in a secure PostgreSQL environment.
-*   **Encryption in Transit**: All communication between the web/mobile app and our API is performed over SSL/TLS.
-
----
-
-## 5. Third-Party Sharing
-
-We **do not** sell, trade, or rent your personal information to third parties. We only share data with service providers necessary for technical operations:
-*   **SMTP Providers**: To deliver your alert emails.
-*   **Firebase**: To deliver native push notifications to your mobile device.
-
----
-
-## 6. Your Rights
-
-You have the right to access, correct, or delete your account at any time. Terminating your secure session and deleting a monitor will remove all associated check history from our systems.
-
----
-
-## 7. Contact Us
-
-For any questions regarding this Privacy Policy or your data, please contact the VKS Studios Security Team.
+If you have questions about this policy, please contact us at **support@vksstudios.online**.
